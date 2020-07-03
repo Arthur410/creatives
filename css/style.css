@@ -1095,6 +1095,11 @@ h1, h2, h3, h4, h5, h6 {
   .footer {
     height: auto;
   }
+  
+  .header .header-intro h4 {
+   	 padding-left:0;
+   	 letter-spacing: 10px;
+  }	
 }
 @media (max-width: 400px) {
   .akita .akita-left {
@@ -1144,4 +1149,5 @@ h1, h2, h3, h4, h5, h6 {
   .nav {
     transform: translateY(-120%);
   }
+  
 }
